@@ -4,7 +4,7 @@ $(function() {
 
   var grants;
   var html = '';
-  var url = '../NEH_Grants2010s.xml';
+  var url = './js/NEH_Grants2010s.xml';
 
   var projectTitle = '';
   var yearAwarded = '';
@@ -40,7 +40,7 @@ $(function() {
       });
 
       $('#results').append(html);
-      
+
     }
   });
 
